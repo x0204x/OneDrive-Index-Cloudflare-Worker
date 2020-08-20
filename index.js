@@ -29,7 +29,7 @@ const config = {
      * 
      */
     "cache": {
-        "enable": false,
+        "enable": true,
         "entireFileCacheLimit": 10000000, // 10MB
         "chunkedCacheLimit": 100000000, // 100MB 
         "paths": ["/Images"]
@@ -47,7 +47,7 @@ const config = {
      * example: POST https://storage.idx0.workers.dev/Images/?upload=<filename>&key=<secret_key>
      */
     "upload": {
-        "enable": false,
+        "enable": true,
         "key": "your_secret_1key_here"
     },
     /**
@@ -66,9 +66,9 @@ const config = {
  * NAME           user name
  * PASS           password
  */
-const AUTH_ENABLED = false
+const AUTH_ENABLED = true
 const NAME = "admin"
-const PASS = "password"
+const PASS = "Hiroshi0803"
 
 /**
  * RegExp for basic auth credentials
