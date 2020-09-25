@@ -66,9 +66,9 @@ const config = {
  * NAME           user name
  * PASS           password
  */
-const AUTH_ENABLED = true
+const AUTH_ENABLED = false
 const NAME = "admin"
-const PASS = "Hiroshi0803"
+const PASS = "password"
 
 /**
  * RegExp for basic auth credentials
